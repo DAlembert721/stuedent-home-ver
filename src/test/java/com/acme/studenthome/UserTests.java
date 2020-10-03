@@ -2,7 +2,6 @@ package com.acme.studenthome;
 
 import com.acme.studenthome.domain.model.UserAccountSystem.User;
 import com.acme.studenthome.domain.service.UserAccountSystemService.UserService;
-import org.assertj.core.util.Lists;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -13,8 +12,6 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
-
-import java.awt.*;
 import java.util.Optional;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
