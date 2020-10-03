@@ -1,4 +1,4 @@
-package com.acme.studenthome;
+package com.acme;
 
 import com.acme.studenthome.controller.UserAccountSystemController.UserController;
 import org.junit.jupiter.api.Test;
