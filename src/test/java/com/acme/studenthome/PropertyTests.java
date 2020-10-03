@@ -1,7 +1,6 @@
 package com.acme.studenthome;
 
 import com.acme.studenthome.domain.model.PropertiesSystem.Property;
-import com.acme.studenthome.domain.model.UserAccountSystem.LandLord;
 import com.acme.studenthome.domain.repository.LocationsSystemRepository.DistrictRepository;
 import com.acme.studenthome.domain.service.PropertiesSystemService.PropertyService;
 import com.google.gson.Gson;
@@ -34,7 +33,7 @@ public class PropertyTests {
 
     @Test
     @DisplayName("POST /api/landlords/{landlordId}/properties")
-    void testLandLordSave() throws Exception{
+    void testPropertySave() throws Exception{
         Property propertyToPost = new Property();
         propertyToPost.setRooms((long) 2);
         propertyToPost.setSize((float) 75.8);
